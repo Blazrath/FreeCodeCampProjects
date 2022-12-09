@@ -186,4 +186,59 @@ statement_4_runs_if_condition_is_false; }</code>
 ** start of undefined **
 
 
+@media (max-width:700px) {
+  nav {
+    display: none;
+  }
+}
+@media (min-width:700px) {
+  section {
+    margin-left:380px;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+nav {
+  width: 50%;
+  max-width: 350px;
+  min-width: 350px;
+  height:100%;
+  position: fixed;
+  top:0;
+  border: solid 2px;
+}
+nav > ul {
+  display: block;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: left;
+  padding-inline-start: 0;
+  margin-block: 0;
+  padding: 10 0;
+}
+nav > ul > li {
+  color: #dfdfe2;
+  padding: 0.5rem;
+  display: block;
+  text-decoration:none;
+  font-size:25px;
+  border: solid 1px;
+}
+header {
+  font-weight:bold; 
+  font-size:40px;
+  }
+p, code, li:not(.nav) {
+  margin-left:25;
+}
+code {
+  background:silver; 
+  padding:10px; 
+  display: block;}
+li > a {
+  color: #dfdfe2
+  text-decoration: none;
+}
 
+** end of undefined **
